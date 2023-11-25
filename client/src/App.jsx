@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import axios from "axios";
 import Tasks from "./components/Tasks";
 import CreateTasks from "./components/CreateTasks";
 import "./App.css";
