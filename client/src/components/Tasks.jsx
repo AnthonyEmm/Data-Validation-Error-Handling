@@ -16,21 +16,23 @@ const Tasks = ({ Tasks }) => {
   }, []);
 
   return (
-    <div className="Task-container">
+    <>
       <div>
         <h1>My Tasks</h1>
       </div>
-      {tasks.map((task) => {
-        return (
-          <div key={task.id}>
-            <h2>{task.title}</h2>
-            <h4>{task.description}</h4>
-            <h4>{task.priority}</h4>
-            <h4>{task.status}</h4>
-          </div>
-        );
-      })}
-    </div>
+      <div className="Task-container">
+        {tasks.map((task) => {
+          return (
+            <div key={task.id}>
+              <h2>{task.title}</h2>
+              <h4>{task.description}</h4>
+              <h4>{task.priority}</h4>
+              <h4>{task.status}</h4>
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 };
 

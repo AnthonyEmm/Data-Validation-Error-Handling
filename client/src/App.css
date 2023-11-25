@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.home {
+  font-size: 2rem;
+  text-align: center;
+}
+
 .create h1 {
   color: #c1d8c3;
   text-align: center;
@@ -17,8 +22,9 @@
   align-items: center;
 }
 h1 {
-  color: #4f4a45;
+  color: whitesmoke;
   font-family: "Monserrat", sans-serif;
+  text-align: center;
 }
 
 .Task-container > div {
@@ -28,7 +34,7 @@ h1 {
   margin: 8px;
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #c1d8c3;
+  background-color: #6c5f5b;
 }
 
 .Task-container h1 {
@@ -37,14 +43,14 @@ h1 {
 }
 
 .Task-container h2 {
-  color: #4f4a45;
+  color: whitesmoke;
   font-size: 1.5rem;
   margin-bottom: 8px;
   font-family: "Monserrat", sans-serif;
 }
 
 .Task-container h4 {
-  color: #4f4a45;
+  color: #1f1717;
   font-size: 1rem;
   margin-bottom: 4px;
   font-family: "Monserrat", sans-serif;
@@ -63,7 +69,7 @@ form {
 label {
   display: block;
   margin-bottom: 8px;
-  color: #4f4a45;
+  color: #45474b;
   font-family: "Monserrat", sans-serif;
 }
 

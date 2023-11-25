@@ -14,9 +14,9 @@ const DATABASE_URL = process.env.DATABASE_URL;
 const PASSWORD = process.env.PASSWORD;
 
 // Testing the App //
-// app.get("/", (req, res) => {
-//   res.json(`<h1>Welcome to the Task Database</h1>`);
-// });
+app.get("/", (req, res) => {
+  res.send(`<h1>Server Running Successfully!</h1>`);
+});
 
 // Testing the endpoint on the path ‘/task` to get all tasks from DB//
 app.get("/task", async (req, res) => {
