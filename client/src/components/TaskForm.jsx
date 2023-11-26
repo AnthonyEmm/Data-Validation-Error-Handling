@@ -31,7 +31,6 @@ const TasksForm = () => {
   };
 
   const onSubmit = (data) => {
-    console.log(data);
     axios.post("http://localhost:3020/task/create", data);
   };
 
